@@ -11,6 +11,3 @@ This repository implements a human-in-the-loop sorting workflow that leverages C
 - **Evaluation Metrics**:
   - **Kendall Tau Rank Correlation**: Measures the agreement between two rankings.
   - **Spearman Footrule Distance**: Computes the sum of rank differences between two lists.
-
-## Repository Structure
-Assignment 3/ ├── Random Lists/ # Randomly generated word lists ├── Truth Lists/ # Ground truth sorted word lists ├── One-Shot Sorted Lists/ # Word lists sorted in one step using ChatGPT ├── Workflow Sorted Lists/ # Word lists sorted using the human-in-the-loop workflow ├── Linear Size Word Lists/ # Word lists of varying sizes for testing ├── alphabetizeWorkflow.py # Main script for sorting word lists ├── calculateError.py # Script to compute evaluation metrics ├── createLists.py # Script to generate random word lists ├── generateTruth.py # Script to generate ground truth sorted lists └── README.md # Documentation for the repository
